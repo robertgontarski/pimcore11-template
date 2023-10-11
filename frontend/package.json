@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "watch": "chokidar 'src/**/*' -c 'tsc && vite build --emptyOutDir'",
+    "build": "tsc && vite build --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "sass": "^1.68.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@types/bootstrap": "^5.2.7",
+    "bootstrap": "^5.3.2"
+  }
+}
